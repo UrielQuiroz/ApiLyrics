@@ -16,7 +16,7 @@ function buscarCancion(e) {
 
         setTimeout(() => {
             UI.divMsj.textContent = '';
-            UI.divMsj.classList.remove();
+            UI.divMsj.classList.remove('error');
         }, 3000);
 
         remove();
